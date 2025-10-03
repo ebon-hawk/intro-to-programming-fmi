@@ -4,13 +4,13 @@
 
 ## Контакти
 
-**хон. ас. Катрин Лилова**
+**Хон. ас. Катрин Лилова**
 
 - Discord: `kklilova`
 - Email: [katrin.lilova@gmail.com](mailto:katrin.lilova@gmail.com)
 - Facebook/Messenger: Katrin Lilova
 
-**хон. ас. Ясен Пенчев**
+**Хон. ас. Ясен Пенчев**
 
 - Discord: `jasen9255`
 - Email: [jasen_penchev@abv.bg](mailto:jasen_penchev@abv.bg)
