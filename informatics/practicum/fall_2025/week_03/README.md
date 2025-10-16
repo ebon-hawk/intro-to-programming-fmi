@@ -144,8 +144,7 @@ $
 
 ### Полезни ресурси и допълнителни материали
 
+- [Binary Fractions and Floating Point](https://ryanstutorials.net/binary-tutorial/binary-floating-point.php)
 - [Demystifying Floating-Point Arithmetic](https://medium.com/@olivier.s/demystifying-floating-point-arithmetic-why-0-1-0-2-0-3-673b9c4bcf9a)
-- [Floating-Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html)
-- [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+- [Floating Point Numbers](https://www.learncpp.com/cpp-tutorial/floating-point-numbers/)
 - [Why Can't Decimal Numbers Be Represented Exactly in Binary?](https://stackoverflow.com/questions/1089018/why-cant-decimal-numbers-be-represented-exactly-in-binary)
-- [Why Does 0.1 + 0.2 = 0.30000000000000004?](https://jvns.ca/blog/2023/02/08/why-does-0-1-plus-0-2-equal-0-30000000000000004/)
