@@ -135,3 +135,4 @@ gcc hello_world.o -o hello_world
 - [Binary Number System](https://www.mathsisfun.com/binary-number-system.html)
 - [C Programming](https://devdocs.io/c/)
 - [GCC Documentation](https://gcc.gnu.org/)
+- [How to Convert Floating Point Decimal Numbers to Binary](https://www.youtube.com/watch?v=pgxigy68QZo)
