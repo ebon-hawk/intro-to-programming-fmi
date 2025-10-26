@@ -4,6 +4,7 @@
 
 int main() {
     double x, y, z;
+
     scanf("%lf %lf %lf", &x, &y, &z);
 
     int negX = x < 0;
@@ -25,5 +26,6 @@ int main() {
         + 8 * (posX && negY && negZ);
 
     printf("%d\n", octant);
+
     return 0;
 }

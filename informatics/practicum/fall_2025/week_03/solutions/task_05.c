@@ -5,17 +5,18 @@
 int main() {
     // Variables to store the circle's center coordinates and radius
     double r, x0, y0;
+
     scanf("%lf %lf %lf", &x0, &y0, &r);
 
     // Variables to store the coordinates of the point to check
     double x, y;
+
     scanf("%lf %lf", &x, &y);
 
     double dx = x - x0;
     double dy = y - y0;
 
-    // Compute squared distance from point to circle center (using
-    // squared distance avoids unnecessary square root calculations)
+    // Using squared distance avoids unnecessary square root calculations
     double dist2 = dx * dx + dy * dy;
 
     // Compute squared radius for comparison
@@ -25,6 +26,8 @@ int main() {
     int inside = (dist2 < r2 - EPS);
     int on = ((dist2 - r2 < EPS) && (r2 - dist2 < EPS));
     int outside = (dist2 > r2 + EPS);
+
     printf("%d %d %d\n", inside, on, outside);
+
     return 0;
 }

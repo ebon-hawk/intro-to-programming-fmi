@@ -4,6 +4,7 @@
 
 int main() {
     int a, b;
+
     scanf("%d %d", &a, &b);
 
     int first = a + (a % 2 != 0);
@@ -14,6 +15,8 @@ int main() {
 
     // Use the average only if a valid sequence exists; otherwise, the result is 0
     double result = (first <= last) * avg;
+
     printf("%.3f\n", result);
+
     return 0;
 }

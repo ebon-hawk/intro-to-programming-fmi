@@ -5,6 +5,7 @@
 int main() {
     int x1, y1;
     int x2, y2;
+
     scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
 
     int dx = x1 - x2;
@@ -24,6 +25,8 @@ int main() {
 
     // Queen can move along a column, diagonal, or row
     int queen = bishop || rook;
+
     printf("rook=%d king=%d queen=%d\n", rook, king, queen);
+
     return 0;
 }

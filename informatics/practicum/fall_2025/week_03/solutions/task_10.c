@@ -4,6 +4,7 @@
 
 int main() {
     double x, y;
+
     scanf("%lf %lf", &x, &y);
 
     int negX = x < 0;
@@ -17,5 +18,6 @@ int main() {
         + 4 * (posX && negY);
 
     printf("%d\n", quadrant);
+
     return 0;
 }

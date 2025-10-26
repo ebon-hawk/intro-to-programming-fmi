@@ -5,10 +5,12 @@
 int main() {
     int x1Left, y1Top;
     int x1Right, y1Bottom;
+
     scanf("%d %d %d %d", &x1Left, &y1Top, &x1Right, &y1Bottom);
 
     int x2Left, y2Top;
     int x2Right, y2Bottom;
+
     scanf("%d %d %d %d", &x2Left, &y2Top, &x2Right, &y2Bottom);
 
     // Left edge - the greater (further right) of the two left edges
@@ -28,6 +30,8 @@ int main() {
     int width = (overlapRight - overlapLeft) * hasIntersection;
 
     int area = height * width;
+
     printf("%d\n", area);
+
     return 0;
 }

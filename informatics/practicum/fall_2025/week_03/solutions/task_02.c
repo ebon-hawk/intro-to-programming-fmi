@@ -4,6 +4,7 @@
 
 int main() {
     char ch;
+
     scanf("%c", &ch);
 
     int isDigit = (ch >= '0' && ch <= '9');
@@ -11,6 +12,8 @@ int main() {
     int isUpper = (ch >= 'A' && ch <= 'Z');
 
     int isOther = !(isDigit || isLower || isUpper);
+
     printf("%d %d %d %d\n", isUpper, isLower, isDigit, isOther);
+
     return 0;
 }

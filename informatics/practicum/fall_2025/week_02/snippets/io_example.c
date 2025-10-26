@@ -5,11 +5,10 @@
 int main() {
     int x;
 
+    printf("Enter a number: ");
     scanf("%d", &x);
 
-    int absX = (x < 0) * (-x) + (x >= 0) * x;
-
-    printf("%d\n", absX);
+    printf("You entered: %d\n", x);
 
     return 0;
 }

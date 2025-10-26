@@ -9,8 +9,7 @@ int main() {
     scanf("%lf %lf %lf", &a, &b, &c);
 
     double D = b * b - 4 * a * c;
-    double sqrtD = sqrt(D); // D < 0 -> NaN
-
+    double sqrtD = sqrt(D);
     double x1 = (-b + sqrtD) / (2 * a);
     double x2 = (-b - sqrtD) / (2 * a);
 

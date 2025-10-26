@@ -7,6 +7,7 @@ int main() {
 
     printf("n = %d (0x%02X)\n", n, (uint8_t)n);
     printf("~n = %d (0x%02X)\n", (int8_t)~n, (uint8_t)~n);
+
     printf("~n + 1 = %d (0x%02X)\n", neg, (uint8_t)neg);
 
     return 0;

@@ -8,8 +8,11 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-    printf("1 / n = %d\n", 1 / n); // Integer division
-    printf("1.0 / n = %f\n", 1.0 / n); // Real division
+    // Integer division
+    printf("1 / n = %d\n", 1 / n);
+
+    // Real division
+    printf("1.0 / n = %f\n", 1.0 / n);
 
     return 0;
 }

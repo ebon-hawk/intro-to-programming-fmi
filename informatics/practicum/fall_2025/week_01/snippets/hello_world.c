@@ -3,6 +3,9 @@
 
 // Entry point for program execution
 int main() {
+    // Output a string to the console
     printf("Hello, World!");
+
+    // Indicate successful termination
     return 0;
 }
