@@ -2,10 +2,11 @@
 
 #include <stdio.h>
 
-/*
- * The least significant bit determines whether a number is even or odd.
- * We can isolate that bit with `& 1`.
- */
+// To determine if a number is even or odd,
+// you isolate its least significant bit (LSB)
+// by applying a bitwise AND operation with 1,
+// where a result of 0 indicates the number is even
+// and 1 indicates it is odd
 int main() {
     unsigned int N;
 

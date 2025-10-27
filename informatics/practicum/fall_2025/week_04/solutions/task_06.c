@@ -2,22 +2,16 @@
 
 #include <stdio.h>
 
-/*
- * The lowest 5 bits correspond to bit positions 0..4.
- * We need a mask where the lowest 5 bits are 1: `(1 << 5) - 1`.
- * Then we XOR the number with this mask to flip only those bits.
- */
+// To toggle the state of the lowest 5 bits (positions 0 through 4),
+// create a mask where those 5 bits are 1 using `(1 << 5) - 1`,
+// and then apply a bitwise XOR operation with that mask
 int main() {
     unsigned int N;
 
     printf("Enter a non-negative integer N: ");
     scanf("%u", &N);
 
-    // 0b00011111 = 31
-    unsigned int mask = (1U << 5) - 1;
-
-    // Flip the lowest 5 bits
-    unsigned int result = N ^ mask;
+    unsigned int result = N ^ ((1U << 5) - 1);
 
     printf("Original number: %u (0x%X)\n", N, N);
 

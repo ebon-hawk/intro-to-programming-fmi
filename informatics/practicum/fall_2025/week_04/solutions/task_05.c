@@ -2,10 +2,9 @@
 
 #include <stdio.h>
 
-/*
- * Create a mask with 1 at position `k`: `1ULL << k`.
- * Apply bitwise XOR to invert only that bit.
- */
+// To toggle (invert) the bit at position `k`,
+// you create a mask with 1 at `k` using `1ULL << k`
+// and apply a bitwise XOR operation
 int main() {
     unsigned int N, k;
 

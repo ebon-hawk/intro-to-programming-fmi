@@ -2,11 +2,9 @@
 
 #include <stdio.h>
 
-/*
- * Create a mask with 1 at position `k`: `1ULL << k`.
- * Invert the mask with `~` so that all bits are 1 except `k`.
- * Apply bitwise AND to zero that bit.
- */
+// To clear (set to 0) the bit at position `k`, you create a mask
+// with 1 at `k` using `1ULL << k`, invert it with `~` to get 0 at `k`
+// and 1 elsewhere, and then apply a bitwise AND operation
 int main() {
     unsigned int N, k;
 

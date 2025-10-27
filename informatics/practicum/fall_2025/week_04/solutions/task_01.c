@@ -2,11 +2,9 @@
 
 #include <stdio.h>
 
-/*
- * Instead of using the math function `pow(2, k)`,
- * we can use the LSHIFT operator: `1ULL << k`.
- * Every left shift multiplies the number by two.
- */
+// Using `1ULL << k` is an efficient, bitwise alternative to `pow(2, k)`
+// for calculating powers of two, as each LSHIFT is equivalent
+// to multiplication by two
 int main() {
     unsigned int k;
 

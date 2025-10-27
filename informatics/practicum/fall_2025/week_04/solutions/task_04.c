@@ -2,10 +2,9 @@
 
 #include <stdio.h>
 
-/*
- * Create a mask with 1 at position `k`: `1ULL << k`.
- * Apply bitwise OR to force that bit to 1.
- */
+// To set (force to 1) the bit at position `k`,
+// you create a mask with 1 at `k` using `1ULL << k`
+// and apply a bitwise OR operation
 int main() {
     unsigned int N, k;
 
