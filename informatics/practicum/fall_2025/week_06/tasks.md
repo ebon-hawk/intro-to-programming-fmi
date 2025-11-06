@@ -131,12 +131,12 @@ x = 3, y = 1
 
 ```
 Вход:
-23
-41
+9
 19
+29
 
 Изход:
-19 satisfies the condition
+29 satisfies the condition
 ```
 
 ### Задача 12 → Нарастваща триъгълна сума
