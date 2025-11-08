@@ -290,3 +290,10 @@ while (i < 10) {
 - Ако броят повторения е известен предварително, използвайте `for`
 - Ако броят повторения е неизвестен и условието се проверява **преди** всяка итерация, използвайте `while`
 - Ако цикълът трябва да се изпълни поне веднъж и условието се проверява **след** всяка итерация, използвайте `do-while`
+
+---
+
+### Допълнителни ресурси
+
+- [CoreDumped: Interactive CPU Execution Simulator](https://tinycpu.com/coredumped)
+- [Interactive C Loop Execution Simulator](https://pythontutor.com/visualize.html#mode=edit)
