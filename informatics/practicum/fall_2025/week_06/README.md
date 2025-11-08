@@ -295,5 +295,5 @@ while (i < 10) {
 
 ### Допълнителни ресурси
 
-- [CoreDumped: Interactive CPU Execution Simulator](https://tinycpu.com/coredumped)
-- [Interactive C Loop Execution Simulator](https://pythontutor.com/visualize.html#mode=edit)
+- [Interactive CPU Execution Simulator](https://tinycpu.com/coredumped)
+- [Step-by-Step C Code Execution Visualizer](https://pythontutor.com/visualize.html#mode=edit)
